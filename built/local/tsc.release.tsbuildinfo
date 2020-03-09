@@ -1,0 +1,93 @@
+{
+  "bundle": {
+    "commonSourceDirectory": "../../src",
+    "sourceFiles": [
+      "../../src/tsc/tsc.ts"
+    ],
+    "js": {
+      "sections": [
+        {
+          "pos": 0,
+          "end": 13,
+          "kind": "prologue",
+          "data": "use strict"
+        },
+        {
+          "pos": 14,
+          "end": 341,
+          "kind": "emitHelpers",
+          "data": "typescript:spreadArrays"
+        },
+        {
+          "pos": 342,
+          "end": 724,
+          "kind": "emitHelpers",
+          "data": "typescript:assign"
+        },
+        {
+          "pos": 725,
+          "end": 2515,
+          "kind": "emitHelpers",
+          "data": "typescript:generator"
+        },
+        {
+          "pos": 2516,
+          "end": 2744,
+          "kind": "emitHelpers",
+          "data": "typescript:makeTemplateObject"
+        },
+        {
+          "pos": 2745,
+          "end": 4684557,
+          "kind": "prepend",
+          "data": "./compiler.release.js",
+          "texts": [
+            {
+              "pos": 2745,
+              "end": 4684557,
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "pos": 4684557,
+          "end": 4710795,
+          "kind": "prepend",
+          "data": "./executeCommandLine.release.js",
+          "texts": [
+            {
+              "pos": 4684557,
+              "end": 4710795,
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "pos": 4710795,
+          "end": 4711191,
+          "kind": "text"
+        }
+      ],
+      "sources": {
+        "prologues": [
+          {
+            "file": 0,
+            "text": "",
+            "directives": [
+              {
+                "pos": -1,
+                "end": -1,
+                "expression": {
+                  "pos": -1,
+                  "end": -1,
+                  "text": "use strict"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "version": "3.9.0-dev.20200309"
+}

@@ -1,0 +1,109 @@
+{
+  "bundle": {
+    "commonSourceDirectory": "../../src",
+    "sourceFiles": [
+      "../../src/jsTyping/shared.ts",
+      "../../src/jsTyping/types.ts",
+      "../../src/jsTyping/jsTyping.ts"
+    ],
+    "js": {
+      "sections": [
+        {
+          "pos": 0,
+          "end": 13,
+          "kind": "prologue",
+          "data": "use strict"
+        },
+        {
+          "pos": 14,
+          "end": 19682,
+          "kind": "text"
+        }
+      ],
+      "sources": {
+        "prologues": [
+          {
+            "file": 0,
+            "text": "",
+            "directives": [
+              {
+                "pos": -1,
+                "end": -1,
+                "expression": {
+                  "pos": -1,
+                  "end": -1,
+                  "text": "use strict"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "dts": {
+      "sections": [
+        {
+          "pos": 0,
+          "end": 420,
+          "kind": "text"
+        },
+        {
+          "pos": 420,
+          "end": 1775,
+          "kind": "internal"
+        },
+        {
+          "pos": 1776,
+          "end": 2127,
+          "kind": "text"
+        },
+        {
+          "pos": 2127,
+          "end": 2244,
+          "kind": "internal"
+        },
+        {
+          "pos": 2245,
+          "end": 3137,
+          "kind": "text"
+        },
+        {
+          "pos": 3137,
+          "end": 3313,
+          "kind": "internal"
+        },
+        {
+          "pos": 3314,
+          "end": 4409,
+          "kind": "text"
+        },
+        {
+          "pos": 4409,
+          "end": 4898,
+          "kind": "internal"
+        },
+        {
+          "pos": 4899,
+          "end": 5193,
+          "kind": "text"
+        },
+        {
+          "pos": 5193,
+          "end": 5367,
+          "kind": "internal"
+        },
+        {
+          "pos": 5368,
+          "end": 5370,
+          "kind": "text"
+        },
+        {
+          "pos": 5370,
+          "end": 8289,
+          "kind": "internal"
+        }
+      ]
+    }
+  },
+  "version": "3.9.0-dev.20200309"
+}

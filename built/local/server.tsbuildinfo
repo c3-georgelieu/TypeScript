@@ -1,0 +1,1308 @@
+{
+  "bundle": {
+    "commonSourceDirectory": "../../src",
+    "sourceFiles": [
+      "../../src/server/types.ts",
+      "../../src/server/utilitiesPublic.ts",
+      "../../src/server/utilities.ts",
+      "../../src/server/watchType.ts",
+      "../../src/server/protocol.ts",
+      "../../src/server/scriptInfo.ts",
+      "../../src/server/typingsCache.ts",
+      "../../src/server/project.ts",
+      "../../src/server/editorServices.ts",
+      "../../src/server/packageJsonCache.ts",
+      "../../src/server/session.ts",
+      "../../src/server/scriptVersionCache.ts"
+    ],
+    "js": {
+      "sections": [
+        {
+          "pos": 0,
+          "end": 13,
+          "kind": "prologue",
+          "data": "use strict"
+        },
+        {
+          "pos": 14,
+          "end": 396,
+          "kind": "emitHelpers",
+          "data": "typescript:assign"
+        },
+        {
+          "pos": 397,
+          "end": 982,
+          "kind": "emitHelpers",
+          "data": "typescript:extends"
+        },
+        {
+          "pos": 983,
+          "end": 1310,
+          "kind": "emitHelpers",
+          "data": "typescript:spreadArrays"
+        },
+        {
+          "pos": 1311,
+          "end": 1801,
+          "kind": "emitHelpers",
+          "data": "typescript:rest"
+        },
+        {
+          "pos": 1802,
+          "end": 538913,
+          "kind": "text"
+        }
+      ],
+      "sources": {
+        "prologues": [
+          {
+            "file": 0,
+            "text": "",
+            "directives": [
+              {
+                "pos": -1,
+                "end": -1,
+                "expression": {
+                  "pos": -1,
+                  "end": -1,
+                  "text": "use strict"
+                }
+              }
+            ]
+          }
+        ],
+        "helpers": [
+          "typescript:assign",
+          "typescript:extends",
+          "typescript:spreadArrays",
+          "typescript:rest"
+        ]
+      }
+    },
+    "dts": {
+      "sections": [
+        {
+          "pos": 0,
+          "end": 2856,
+          "kind": "text"
+        },
+        {
+          "pos": 2856,
+          "end": 3141,
+          "kind": "internal"
+        },
+        {
+          "pos": 3142,
+          "end": 3319,
+          "kind": "text"
+        },
+        {
+          "pos": 3319,
+          "end": 5218,
+          "kind": "internal"
+        },
+        {
+          "pos": 5219,
+          "end": 5426,
+          "kind": "text"
+        },
+        {
+          "pos": 5426,
+          "end": 5459,
+          "kind": "internal"
+        },
+        {
+          "pos": 5460,
+          "end": 5789,
+          "kind": "text"
+        },
+        {
+          "pos": 5789,
+          "end": 5834,
+          "kind": "internal"
+        },
+        {
+          "pos": 5835,
+          "end": 5889,
+          "kind": "text"
+        },
+        {
+          "pos": 5889,
+          "end": 5951,
+          "kind": "internal"
+        },
+        {
+          "pos": 5952,
+          "end": 6150,
+          "kind": "text"
+        },
+        {
+          "pos": 6150,
+          "end": 6193,
+          "kind": "internal"
+        },
+        {
+          "pos": 6194,
+          "end": 6253,
+          "kind": "text"
+        },
+        {
+          "pos": 6253,
+          "end": 6320,
+          "kind": "internal"
+        },
+        {
+          "pos": 6321,
+          "end": 6364,
+          "kind": "text"
+        },
+        {
+          "pos": 6364,
+          "end": 6451,
+          "kind": "internal"
+        },
+        {
+          "pos": 6452,
+          "end": 6539,
+          "kind": "text"
+        },
+        {
+          "pos": 6539,
+          "end": 6666,
+          "kind": "internal"
+        },
+        {
+          "pos": 6667,
+          "end": 6957,
+          "kind": "text"
+        },
+        {
+          "pos": 6957,
+          "end": 6992,
+          "kind": "internal"
+        },
+        {
+          "pos": 6993,
+          "end": 7018,
+          "kind": "text"
+        },
+        {
+          "pos": 7018,
+          "end": 7051,
+          "kind": "internal"
+        },
+        {
+          "pos": 7052,
+          "end": 7234,
+          "kind": "text"
+        },
+        {
+          "pos": 7234,
+          "end": 7293,
+          "kind": "internal"
+        },
+        {
+          "pos": 7294,
+          "end": 7350,
+          "kind": "text"
+        },
+        {
+          "pos": 7350,
+          "end": 7391,
+          "kind": "internal"
+        },
+        {
+          "pos": 7392,
+          "end": 7427,
+          "kind": "text"
+        },
+        {
+          "pos": 7427,
+          "end": 7470,
+          "kind": "internal"
+        },
+        {
+          "pos": 7471,
+          "end": 7525,
+          "kind": "text"
+        },
+        {
+          "pos": 7525,
+          "end": 7618,
+          "kind": "internal"
+        },
+        {
+          "pos": 7619,
+          "end": 7687,
+          "kind": "text"
+        },
+        {
+          "pos": 7687,
+          "end": 7736,
+          "kind": "internal"
+        },
+        {
+          "pos": 7737,
+          "end": 8079,
+          "kind": "text"
+        },
+        {
+          "pos": 8079,
+          "end": 8198,
+          "kind": "internal"
+        },
+        {
+          "pos": 8199,
+          "end": 8234,
+          "kind": "text"
+        },
+        {
+          "pos": 8234,
+          "end": 8432,
+          "kind": "internal"
+        },
+        {
+          "pos": 8433,
+          "end": 8482,
+          "kind": "text"
+        },
+        {
+          "pos": 8482,
+          "end": 8531,
+          "kind": "internal"
+        },
+        {
+          "pos": 8532,
+          "end": 8659,
+          "kind": "text"
+        },
+        {
+          "pos": 8659,
+          "end": 8842,
+          "kind": "internal"
+        },
+        {
+          "pos": 8843,
+          "end": 8965,
+          "kind": "text"
+        },
+        {
+          "pos": 8965,
+          "end": 9012,
+          "kind": "internal"
+        },
+        {
+          "pos": 9013,
+          "end": 9064,
+          "kind": "text"
+        },
+        {
+          "pos": 9064,
+          "end": 9123,
+          "kind": "internal"
+        },
+        {
+          "pos": 9124,
+          "end": 9352,
+          "kind": "text"
+        },
+        {
+          "pos": 9352,
+          "end": 9413,
+          "kind": "internal"
+        },
+        {
+          "pos": 9414,
+          "end": 9459,
+          "kind": "text"
+        },
+        {
+          "pos": 9459,
+          "end": 9512,
+          "kind": "internal"
+        },
+        {
+          "pos": 9513,
+          "end": 9570,
+          "kind": "text"
+        },
+        {
+          "pos": 9570,
+          "end": 9635,
+          "kind": "internal"
+        },
+        {
+          "pos": 9636,
+          "end": 9724,
+          "kind": "text"
+        },
+        {
+          "pos": 9724,
+          "end": 9775,
+          "kind": "internal"
+        },
+        {
+          "pos": 9776,
+          "end": 15373,
+          "kind": "text"
+        },
+        {
+          "pos": 15373,
+          "end": 15726,
+          "kind": "internal"
+        },
+        {
+          "pos": 15727,
+          "end": 20007,
+          "kind": "text"
+        },
+        {
+          "pos": 20007,
+          "end": 20124,
+          "kind": "internal"
+        },
+        {
+          "pos": 20125,
+          "end": 25269,
+          "kind": "text"
+        },
+        {
+          "pos": 25269,
+          "end": 25391,
+          "kind": "internal"
+        },
+        {
+          "pos": 25392,
+          "end": 25619,
+          "kind": "text"
+        },
+        {
+          "pos": 25619,
+          "end": 25739,
+          "kind": "internal"
+        },
+        {
+          "pos": 25740,
+          "end": 27163,
+          "kind": "text"
+        },
+        {
+          "pos": 27163,
+          "end": 28401,
+          "kind": "internal"
+        },
+        {
+          "pos": 28402,
+          "end": 29297,
+          "kind": "text"
+        },
+        {
+          "pos": 29297,
+          "end": 29491,
+          "kind": "internal"
+        },
+        {
+          "pos": 29492,
+          "end": 37303,
+          "kind": "text"
+        },
+        {
+          "pos": 37303,
+          "end": 37585,
+          "kind": "internal"
+        },
+        {
+          "pos": 37586,
+          "end": 41747,
+          "kind": "text"
+        },
+        {
+          "pos": 41747,
+          "end": 42592,
+          "kind": "internal"
+        },
+        {
+          "pos": 42593,
+          "end": 43654,
+          "kind": "text"
+        },
+        {
+          "pos": 43654,
+          "end": 45332,
+          "kind": "internal"
+        },
+        {
+          "pos": 45333,
+          "end": 51656,
+          "kind": "text"
+        },
+        {
+          "pos": 51656,
+          "end": 52980,
+          "kind": "internal"
+        },
+        {
+          "pos": 52981,
+          "end": 59327,
+          "kind": "text"
+        },
+        {
+          "pos": 59327,
+          "end": 59451,
+          "kind": "internal"
+        },
+        {
+          "pos": 59452,
+          "end": 83657,
+          "kind": "text"
+        },
+        {
+          "pos": 83657,
+          "end": 83933,
+          "kind": "internal"
+        },
+        {
+          "pos": 83934,
+          "end": 100676,
+          "kind": "text"
+        },
+        {
+          "pos": 100676,
+          "end": 104728,
+          "kind": "internal"
+        },
+        {
+          "pos": 104729,
+          "end": 105119,
+          "kind": "text"
+        },
+        {
+          "pos": 105119,
+          "end": 105164,
+          "kind": "internal"
+        },
+        {
+          "pos": 105165,
+          "end": 105194,
+          "kind": "text"
+        },
+        {
+          "pos": 105194,
+          "end": 105658,
+          "kind": "internal"
+        },
+        {
+          "pos": 105659,
+          "end": 105822,
+          "kind": "text"
+        },
+        {
+          "pos": 105822,
+          "end": 105949,
+          "kind": "internal"
+        },
+        {
+          "pos": 105950,
+          "end": 106135,
+          "kind": "text"
+        },
+        {
+          "pos": 106135,
+          "end": 106186,
+          "kind": "internal"
+        },
+        {
+          "pos": 106187,
+          "end": 106764,
+          "kind": "text"
+        },
+        {
+          "pos": 106764,
+          "end": 106811,
+          "kind": "internal"
+        },
+        {
+          "pos": 106812,
+          "end": 106876,
+          "kind": "text"
+        },
+        {
+          "pos": 106876,
+          "end": 106958,
+          "kind": "internal"
+        },
+        {
+          "pos": 106959,
+          "end": 107385,
+          "kind": "text"
+        },
+        {
+          "pos": 107385,
+          "end": 107471,
+          "kind": "internal"
+        },
+        {
+          "pos": 107472,
+          "end": 107572,
+          "kind": "text"
+        },
+        {
+          "pos": 107572,
+          "end": 107647,
+          "kind": "internal"
+        },
+        {
+          "pos": 107648,
+          "end": 108396,
+          "kind": "text"
+        },
+        {
+          "pos": 108396,
+          "end": 109135,
+          "kind": "internal"
+        },
+        {
+          "pos": 109136,
+          "end": 109264,
+          "kind": "text"
+        },
+        {
+          "pos": 109264,
+          "end": 109423,
+          "kind": "internal"
+        },
+        {
+          "pos": 109424,
+          "end": 109548,
+          "kind": "text"
+        },
+        {
+          "pos": 109548,
+          "end": 109741,
+          "kind": "internal"
+        },
+        {
+          "pos": 109742,
+          "end": 110343,
+          "kind": "text"
+        },
+        {
+          "pos": 110343,
+          "end": 110630,
+          "kind": "internal"
+        },
+        {
+          "pos": 110631,
+          "end": 111213,
+          "kind": "text"
+        },
+        {
+          "pos": 111213,
+          "end": 111675,
+          "kind": "internal"
+        },
+        {
+          "pos": 111676,
+          "end": 111914,
+          "kind": "text"
+        },
+        {
+          "pos": 111914,
+          "end": 112027,
+          "kind": "internal"
+        },
+        {
+          "pos": 112028,
+          "end": 113201,
+          "kind": "text"
+        },
+        {
+          "pos": 113201,
+          "end": 113493,
+          "kind": "internal"
+        },
+        {
+          "pos": 113494,
+          "end": 113784,
+          "kind": "text"
+        },
+        {
+          "pos": 113784,
+          "end": 114553,
+          "kind": "internal"
+        },
+        {
+          "pos": 114554,
+          "end": 114705,
+          "kind": "text"
+        },
+        {
+          "pos": 114705,
+          "end": 114765,
+          "kind": "internal"
+        },
+        {
+          "pos": 114766,
+          "end": 114802,
+          "kind": "text"
+        },
+        {
+          "pos": 114802,
+          "end": 114881,
+          "kind": "internal"
+        },
+        {
+          "pos": 114882,
+          "end": 115889,
+          "kind": "text"
+        },
+        {
+          "pos": 115889,
+          "end": 115940,
+          "kind": "internal"
+        },
+        {
+          "pos": 115941,
+          "end": 116568,
+          "kind": "text"
+        },
+        {
+          "pos": 116568,
+          "end": 117254,
+          "kind": "internal"
+        },
+        {
+          "pos": 117255,
+          "end": 117655,
+          "kind": "text"
+        },
+        {
+          "pos": 117655,
+          "end": 118062,
+          "kind": "internal"
+        },
+        {
+          "pos": 118063,
+          "end": 118771,
+          "kind": "text"
+        },
+        {
+          "pos": 118771,
+          "end": 118841,
+          "kind": "internal"
+        },
+        {
+          "pos": 118842,
+          "end": 118966,
+          "kind": "text"
+        },
+        {
+          "pos": 118966,
+          "end": 118994,
+          "kind": "internal"
+        },
+        {
+          "pos": 118995,
+          "end": 119037,
+          "kind": "text"
+        },
+        {
+          "pos": 119037,
+          "end": 119085,
+          "kind": "internal"
+        },
+        {
+          "pos": 119086,
+          "end": 119340,
+          "kind": "text"
+        },
+        {
+          "pos": 119340,
+          "end": 119472,
+          "kind": "internal"
+        },
+        {
+          "pos": 119473,
+          "end": 119988,
+          "kind": "text"
+        },
+        {
+          "pos": 119988,
+          "end": 120037,
+          "kind": "internal"
+        },
+        {
+          "pos": 120038,
+          "end": 120067,
+          "kind": "text"
+        },
+        {
+          "pos": 120067,
+          "end": 120104,
+          "kind": "internal"
+        },
+        {
+          "pos": 120105,
+          "end": 120320,
+          "kind": "text"
+        },
+        {
+          "pos": 120320,
+          "end": 120444,
+          "kind": "internal"
+        },
+        {
+          "pos": 120445,
+          "end": 120550,
+          "kind": "text"
+        },
+        {
+          "pos": 120550,
+          "end": 120658,
+          "kind": "internal"
+        },
+        {
+          "pos": 120659,
+          "end": 120781,
+          "kind": "text"
+        },
+        {
+          "pos": 120781,
+          "end": 120860,
+          "kind": "internal"
+        },
+        {
+          "pos": 120861,
+          "end": 121218,
+          "kind": "text"
+        },
+        {
+          "pos": 121218,
+          "end": 121256,
+          "kind": "internal"
+        },
+        {
+          "pos": 121257,
+          "end": 121325,
+          "kind": "text"
+        },
+        {
+          "pos": 121325,
+          "end": 121585,
+          "kind": "internal"
+        },
+        {
+          "pos": 121586,
+          "end": 121640,
+          "kind": "text"
+        },
+        {
+          "pos": 121640,
+          "end": 121710,
+          "kind": "internal"
+        },
+        {
+          "pos": 121711,
+          "end": 121995,
+          "kind": "text"
+        },
+        {
+          "pos": 121995,
+          "end": 122078,
+          "kind": "internal"
+        },
+        {
+          "pos": 122079,
+          "end": 122245,
+          "kind": "text"
+        },
+        {
+          "pos": 122245,
+          "end": 122470,
+          "kind": "internal"
+        },
+        {
+          "pos": 122471,
+          "end": 123032,
+          "kind": "text"
+        },
+        {
+          "pos": 123032,
+          "end": 123482,
+          "kind": "internal"
+        },
+        {
+          "pos": 123483,
+          "end": 123568,
+          "kind": "text"
+        },
+        {
+          "pos": 123568,
+          "end": 123596,
+          "kind": "internal"
+        },
+        {
+          "pos": 123597,
+          "end": 124002,
+          "kind": "text"
+        },
+        {
+          "pos": 124002,
+          "end": 124053,
+          "kind": "internal"
+        },
+        {
+          "pos": 124054,
+          "end": 124318,
+          "kind": "text"
+        },
+        {
+          "pos": 124318,
+          "end": 124582,
+          "kind": "internal"
+        },
+        {
+          "pos": 124583,
+          "end": 124764,
+          "kind": "text"
+        },
+        {
+          "pos": 124764,
+          "end": 125414,
+          "kind": "internal"
+        },
+        {
+          "pos": 125415,
+          "end": 126565,
+          "kind": "text"
+        },
+        {
+          "pos": 126565,
+          "end": 126676,
+          "kind": "internal"
+        },
+        {
+          "pos": 126677,
+          "end": 126971,
+          "kind": "text"
+        },
+        {
+          "pos": 126971,
+          "end": 127043,
+          "kind": "internal"
+        },
+        {
+          "pos": 127044,
+          "end": 127241,
+          "kind": "text"
+        },
+        {
+          "pos": 127241,
+          "end": 127535,
+          "kind": "internal"
+        },
+        {
+          "pos": 127536,
+          "end": 127978,
+          "kind": "text"
+        },
+        {
+          "pos": 127978,
+          "end": 128093,
+          "kind": "internal"
+        },
+        {
+          "pos": 128094,
+          "end": 128117,
+          "kind": "text"
+        },
+        {
+          "pos": 128117,
+          "end": 128383,
+          "kind": "internal"
+        },
+        {
+          "pos": 128384,
+          "end": 128427,
+          "kind": "text"
+        },
+        {
+          "pos": 128427,
+          "end": 128497,
+          "kind": "internal"
+        },
+        {
+          "pos": 128498,
+          "end": 128885,
+          "kind": "text"
+        },
+        {
+          "pos": 128885,
+          "end": 129205,
+          "kind": "internal"
+        },
+        {
+          "pos": 129206,
+          "end": 129417,
+          "kind": "text"
+        },
+        {
+          "pos": 129417,
+          "end": 129654,
+          "kind": "internal"
+        },
+        {
+          "pos": 129655,
+          "end": 129741,
+          "kind": "text"
+        },
+        {
+          "pos": 129741,
+          "end": 129778,
+          "kind": "internal"
+        },
+        {
+          "pos": 129779,
+          "end": 134442,
+          "kind": "text"
+        },
+        {
+          "pos": 134442,
+          "end": 134621,
+          "kind": "internal"
+        },
+        {
+          "pos": 134622,
+          "end": 135604,
+          "kind": "text"
+        },
+        {
+          "pos": 135604,
+          "end": 135703,
+          "kind": "internal"
+        },
+        {
+          "pos": 135704,
+          "end": 136107,
+          "kind": "text"
+        },
+        {
+          "pos": 136107,
+          "end": 137604,
+          "kind": "internal"
+        },
+        {
+          "pos": 137605,
+          "end": 138232,
+          "kind": "text"
+        },
+        {
+          "pos": 138232,
+          "end": 138641,
+          "kind": "internal"
+        },
+        {
+          "pos": 138642,
+          "end": 138676,
+          "kind": "text"
+        },
+        {
+          "pos": 138676,
+          "end": 138895,
+          "kind": "internal"
+        },
+        {
+          "pos": 138896,
+          "end": 139314,
+          "kind": "text"
+        },
+        {
+          "pos": 139314,
+          "end": 139456,
+          "kind": "internal"
+        },
+        {
+          "pos": 139457,
+          "end": 141567,
+          "kind": "text"
+        },
+        {
+          "pos": 141567,
+          "end": 141617,
+          "kind": "internal"
+        },
+        {
+          "pos": 141618,
+          "end": 142635,
+          "kind": "text"
+        },
+        {
+          "pos": 142635,
+          "end": 142699,
+          "kind": "internal"
+        },
+        {
+          "pos": 142700,
+          "end": 142832,
+          "kind": "text"
+        },
+        {
+          "pos": 142832,
+          "end": 143356,
+          "kind": "internal"
+        },
+        {
+          "pos": 143357,
+          "end": 143501,
+          "kind": "text"
+        },
+        {
+          "pos": 143501,
+          "end": 143677,
+          "kind": "internal"
+        },
+        {
+          "pos": 143678,
+          "end": 143767,
+          "kind": "text"
+        },
+        {
+          "pos": 143767,
+          "end": 144278,
+          "kind": "internal"
+        },
+        {
+          "pos": 144279,
+          "end": 144528,
+          "kind": "text"
+        },
+        {
+          "pos": 144528,
+          "end": 144628,
+          "kind": "internal"
+        },
+        {
+          "pos": 144629,
+          "end": 144734,
+          "kind": "text"
+        },
+        {
+          "pos": 144734,
+          "end": 144889,
+          "kind": "internal"
+        },
+        {
+          "pos": 144890,
+          "end": 145913,
+          "kind": "text"
+        },
+        {
+          "pos": 145913,
+          "end": 146425,
+          "kind": "internal"
+        },
+        {
+          "pos": 146426,
+          "end": 146744,
+          "kind": "text"
+        },
+        {
+          "pos": 146744,
+          "end": 146872,
+          "kind": "internal"
+        },
+        {
+          "pos": 146873,
+          "end": 148163,
+          "kind": "text"
+        },
+        {
+          "pos": 148163,
+          "end": 148546,
+          "kind": "internal"
+        },
+        {
+          "pos": 148547,
+          "end": 149017,
+          "kind": "text"
+        },
+        {
+          "pos": 149017,
+          "end": 149103,
+          "kind": "internal"
+        },
+        {
+          "pos": 149104,
+          "end": 150114,
+          "kind": "text"
+        },
+        {
+          "pos": 150114,
+          "end": 150195,
+          "kind": "internal"
+        },
+        {
+          "pos": 150196,
+          "end": 150283,
+          "kind": "text"
+        },
+        {
+          "pos": 150283,
+          "end": 150589,
+          "kind": "internal"
+        },
+        {
+          "pos": 150590,
+          "end": 150695,
+          "kind": "text"
+        },
+        {
+          "pos": 150695,
+          "end": 151095,
+          "kind": "internal"
+        },
+        {
+          "pos": 151096,
+          "end": 151367,
+          "kind": "text"
+        },
+        {
+          "pos": 151367,
+          "end": 151540,
+          "kind": "internal"
+        },
+        {
+          "pos": 151541,
+          "end": 151615,
+          "kind": "text"
+        },
+        {
+          "pos": 151615,
+          "end": 152021,
+          "kind": "internal"
+        },
+        {
+          "pos": 152022,
+          "end": 153086,
+          "kind": "text"
+        },
+        {
+          "pos": 153086,
+          "end": 153226,
+          "kind": "internal"
+        },
+        {
+          "pos": 153227,
+          "end": 153310,
+          "kind": "text"
+        },
+        {
+          "pos": 153310,
+          "end": 153544,
+          "kind": "internal"
+        },
+        {
+          "pos": 153545,
+          "end": 153623,
+          "kind": "text"
+        },
+        {
+          "pos": 153623,
+          "end": 153691,
+          "kind": "internal"
+        },
+        {
+          "pos": 153692,
+          "end": 155571,
+          "kind": "text"
+        },
+        {
+          "pos": 155571,
+          "end": 155780,
+          "kind": "internal"
+        },
+        {
+          "pos": 155781,
+          "end": 155974,
+          "kind": "text"
+        },
+        {
+          "pos": 155974,
+          "end": 156045,
+          "kind": "internal"
+        },
+        {
+          "pos": 156046,
+          "end": 156649,
+          "kind": "text"
+        },
+        {
+          "pos": 156649,
+          "end": 156761,
+          "kind": "internal"
+        },
+        {
+          "pos": 156762,
+          "end": 156794,
+          "kind": "text"
+        },
+        {
+          "pos": 156794,
+          "end": 157201,
+          "kind": "internal"
+        },
+        {
+          "pos": 157202,
+          "end": 157865,
+          "kind": "text"
+        },
+        {
+          "pos": 157865,
+          "end": 158026,
+          "kind": "internal"
+        },
+        {
+          "pos": 158027,
+          "end": 158044,
+          "kind": "text"
+        },
+        {
+          "pos": 158044,
+          "end": 158457,
+          "kind": "internal"
+        },
+        {
+          "pos": 158458,
+          "end": 159177,
+          "kind": "text"
+        },
+        {
+          "pos": 159177,
+          "end": 159268,
+          "kind": "internal"
+        },
+        {
+          "pos": 159269,
+          "end": 166721,
+          "kind": "text"
+        },
+        {
+          "pos": 166721,
+          "end": 166878,
+          "kind": "internal"
+        },
+        {
+          "pos": 166879,
+          "end": 166881,
+          "kind": "text"
+        },
+        {
+          "pos": 166881,
+          "end": 171490,
+          "kind": "internal"
+        }
+      ]
+    }
+  },
+  "version": "3.9.0-dev.20200309"
+}

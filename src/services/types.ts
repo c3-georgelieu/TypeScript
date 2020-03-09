@@ -97,6 +97,7 @@ namespace ts {
         getLineStarts(): readonly number[];
         getPositionOfLineAndCharacter(line: number, character: number): number;
         update(newText: string, textChangeRange: TextChangeRange): SourceFile;
+        getUpdatedCode(lineNumber: number, startColumn: number, endColumn: number, newValue: number, paramIndex?: number): string;
 
         /* @internal */ sourceMapper?: DocumentPositionMapper;
     }

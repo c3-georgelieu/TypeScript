@@ -247,6 +247,10 @@ namespace ts {
             return this.getStart(sourceFile) - this.pos;
         }
 
+        public modifyFile(sourceFile?: SourceFile): string {
+            return sourceFile?.getFullText() + 'here you go';
+        }
+
         public getFullText(sourceFile?: SourceFile): string {
             return (sourceFile || this.getSourceFile()).text.substring(this.pos, this.end);
         }
@@ -663,6 +667,54 @@ namespace ts {
             }
 
             return this.namedDeclarations;
+        }
+
+        public getUpdatedCode(lineNumber: number, startColumn: number, endColumn: number, newValue: number, paramIndex?: number): string {
+            const sourceFile = this.getSourceFile();
+            const printer = createPrinter({
+                newLine: NewLineKind.LineFeed,
+                removeComments: false,
+                omitTrailingSemicolon: true
+            });
+
+            const transformer = (context: TransformationContext) => {
+              return (rootNode: Node) => {
+                function visit(node: Node) {
+                  node = visitEachChild(node, visit, context);
+                    if (isVariableDeclaration(node)) {
+                        const startAndLine = sourceFile.getLineAndCharacterOfPosition(node.name.getStart(sourceFile));
+                        const endAndLine = sourceFile.getLineAndCharacterOfPosition(node.name.getEnd());
+
+                        if (startAndLine.character === startColumn && endAndLine.character === endColumn && startAndLine.line === lineNumber) {
+                            const clone = getMutableClone(node);
+                            clone.initializer = createLiteral(newValue);
+                            return clone;
+                        }
+                    }
+                    else if (isCallExpression(node)) {
+                        const startAndLine = sourceFile.getLineAndCharacterOfPosition(node.expression.getStart(sourceFile));
+                        const endAndLine = sourceFile.getLineAndCharacterOfPosition(node.expression.getEnd());
+
+                        if (startAndLine.character === startColumn && endAndLine.character === endColumn && startAndLine.line === lineNumber) {
+                            const clone = getMutableClone(node);
+
+                            // @ts-ignore TODO Update arguments in another way.
+                            clone.arguments[paramIndex || 0] = createLiteral(newValue);
+
+                            return clone;
+                        }
+                    }
+                  return node;
+                }
+                return visitNode(rootNode, visit);
+              };
+            };
+
+            const transformResult = transform(sourceFile, [transformer]);
+            const updatedSourceFile = transformResult.transformed[0];
+
+            // @ts-ignore TODO Figure out why updatedSourceFile is of type Node instead of SourceFileObject
+            return printer.printFile(updatedSourceFile);
         }
 
         private computeNamedDeclarations(): Map<Declaration[]> {
